@@ -1,0 +1,10 @@
+main, header{
+    width: 50%;
+}
+
+main{
+    margin-top: 48px;
+    background-color: #25273c;
+    display: flex;
+    flex-direction: column;
+}

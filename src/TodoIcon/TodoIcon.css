@@ -1,0 +1,14 @@
+.Icon-container{
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Icon-container-check--active{
+    color: #4caf50;
+}
+
+.Icon-svg {
+    width: 24px;
+    height: 24px;
+}

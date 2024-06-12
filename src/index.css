@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #181824;
+  color: white;
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+}
+#root {
+  margin-inline: 24px;
+  position: relative;
+  min-height: 100vh;
+  min-width: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

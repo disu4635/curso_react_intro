@@ -2,7 +2,11 @@
 
 !Hola
 
-Este repositorio contiene mi adaptación de la página de TODOs que creé en el curso de Introducción a React de Platzi. Principalmente me centré en repasar mis conocimientos de React y cambiar la interfaz a mi gusto. Personalmente, me gusta mucho cómo quedó y espero que a ti también.
+Este repositorio contiene mi adaptación de la página de TODOs que creé en el curso de Introducción a React de Platzi.
+
+Principalmente me centré en repasar mis conocimientos de React y cambiar la interfaz a mi gusto. Personalmente, me gusta mucho cómo quedó y espero que a ti también.
+
+Puedes probar el repositorio ya desplegado en el siguiente enlace: [TODO Machine](https://disu4635.github.io/curso_react_intro/).
 
 ## Getting Started with Create React App
 

@@ -37,10 +37,21 @@ function TodoProvider ({ children }) {
       
       const completeTodo = (text) => {
         const newTodos = [...todos];
-        const todoIndex = newTodos.findIndex(todo => (text === todo.text));
-        newTodos[todoIndex].completed = true;
-        saveTodos(newTodos);
-      }
+        const todoIndex = newTodos.findIndex(todo => text === todo.text);
+      
+        if (todoIndex !== -1) {
+          newTodos[todoIndex].completed = !newTodos[todoIndex].completed;
+      
+          const [updatedTodo] = newTodos.splice(todoIndex, 1); 
+          if (updatedTodo.completed) {
+            newTodos.push(updatedTodo); 
+          } else {
+            newTodos.unshift(updatedTodo);
+          }
+      
+          saveTodos(newTodos);
+        }
+      };
     
       const deleteTodo = (text) =>{
         const newTodos = [...todos];

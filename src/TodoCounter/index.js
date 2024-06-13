@@ -11,7 +11,7 @@ function TodoCounter(){
     if(totalTodos === 0){
       return(
         <h1 className='TodoCounter'>
-          No tienes TODOs! ¿Por qué no pruebas agregar uno?
+          No tienes TODOs! <br/>¿Por qué no pruebas agregar uno?
         </h1>
       );
     }
